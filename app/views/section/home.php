@@ -11,9 +11,6 @@
                 </a>
             </div>
             <div class="col-6">
-                <div data-aos="zoom-in-down" data-aos-duration="1500">
-                    <img src="img/students.png" alt="" class="w-100">
-                </div>
             </div>
         </div>
     </div>
