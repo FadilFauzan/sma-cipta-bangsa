@@ -12,7 +12,7 @@
             </div>
             <div class="col-6">
                 <div data-aos="zoom-in-down" data-aos-duration="1500">
-                    <img src="img/lapangan.png" alt="" class="w-100">
+                    <img src="img/perpustakaan.png" alt="" class="w-100">
                 </div>
             </div>
         </div>
