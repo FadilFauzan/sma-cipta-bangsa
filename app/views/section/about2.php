@@ -91,31 +91,3 @@ require_once("../app/assets.php");
         </div>
     </div>
 </section>
-
-<!-- Jurusan Siswa -->
-<section class="bg-secondary">
-    <div class="container text-white text-center" style="padding: 70px 0 50px 0;">
-        <div class="row">
-            <h2 class="fw-semibold">Jurusan Siswa</h2>
-            <hr style="color: white;">
-            <?php $jurusanImgDelay = 100 ?>
-            <?php foreach ($jurusan["img"] as $index => $img) : ?>
-                <div class="col-4 mb-3">
-                    <div data-aos="zoom-in" data-aos-delay="<?= $jurusanImgDelay ?>" 
-                        data-aos-duration="1000" data-aos-once="true">
-
-                        <div class="card overflow-hidden shadow">
-                            <img src="img/jurusan/<?= $img ?>" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semibold"><?= $jurusan["list"][$index] ?></h5>
-                                <p class="card-text"><?= getJurusanDescription($jurusan["list"][$index]) ?></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            <?php $jurusanImgDelay += 300 ?>
-            <?php endforeach ?>
-        </div>
-    </div>
-</section>
